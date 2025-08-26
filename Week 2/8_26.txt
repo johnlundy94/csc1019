@@ -1,0 +1,27 @@
+"\n" - new line
+"\t" - tab
+"\\" - Actual backslash
+
+How to write an input:
+number1 = float(input("Enter first number: "))
+
+
+if else statement in Python:
+if number > 0:
+    print("Positive number")
+elif number < 0:
+    print("Negative number")
+else:
+    print("You typed a 0")
+
+
+Example of an Algo:
+def average(list_of_numbers):
+    return sum(list_of_numbers) / len(list_of_numbers)
+
+numbers = input("Enter number...")
+list_of_numbers = list(map(float, numbers.split()))
+
+avg = average(list_of_numbers)
+
+
