@@ -1,0 +1,29 @@
+- Types are categories for data.
+numbers
+strings
+list
+dictionaries (key-value pairs)
+
+Numbers versus floats
+Int: age= 18 (Whole numbers)
+Float: price = 300.25 (Decimals)
+
+- Lists
+A collection of items in order
+fruits = ["apple", "banana", "cherry"]
+grades = [90,85, 88]
+
+- Dictionaries:
+Stores keys (words) values (meanings)
+student = {"name": "John", "age", "30"}
+
+Type conversions
+
+number = 10
+text = str(number)
+
+Common functions int(), str(), float(), list()
+
+- You cannot concatenate a string with an int
+str + str
+int + int
