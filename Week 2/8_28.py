@@ -46,5 +46,6 @@ hobby = input("What is your hobby? ")
 print(f"Hello {name}, your hobby is {hobby}!")
 input("Press enter to exit...")
 
+print(f"My age is '{25}'")
 
 
