@@ -45,9 +45,11 @@ print("157")
 # Think of an expression as something that can be evaluates to a value
 
 # --------------------------------------
-# A statement does something but doesn't produce a value
+# A statement does something but may not produce a value
 # Statements often contain expressions, but not all expressions are statements.
+# Expression of the statement.
 x=5
+# Expression of the statement.
 print(x)
 if x > 0:
     print("Positive")
