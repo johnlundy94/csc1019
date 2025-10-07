@@ -1,13 +1,27 @@
-# Ask the user to input a number
-# Checks if the number is
-    # Positive, negative, or zero
-    # Even or odd
-# Print appropriate messages for each case
+# Algorithm:
+# 1. Ask the user to enter a number.
+# 2. Check if the number is positive, negative, or zero.
+# 3. Display a message describing whether it is positive, negative, or zero.
+# 4. Check if the number is even or odd.
+# 5. Display a message describing whether it is even or odd.
 
-# Ex
-    # Enter a number: 7
-    # The number 7 is positive
-    # The number 7 is odd
+# Pseudocode:
+# BEGIN
+#     PROMPT user for a number
+#     IF number > 0 THEN
+#         DISPLAY "The number is positive"
+#     ELSE IF number < 0 THEN
+#         DISPLAY "The number is negative"
+#     ELSE
+#         DISPLAY "The number is zero"
+#     END IF
+
+#     IF number MOD 2 == 0 THEN
+#         DISPLAY "The number is even"
+#     ELSE
+#         DISPLAY "The number is odd"
+#     END IF
+# END
 
 # Get user input
 num = int(input("Enter a number: "))

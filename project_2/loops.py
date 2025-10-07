@@ -1,16 +1,27 @@
-# As the user to input a positive integer, n
-# Uses a for loop to print all numbers from 1 to n
-# Uses a while loop to calculate and print the sum of numbers from 1 to n
+# Algorithm:
+# 1. Ask the user to input a positive integer n.
+# 2. Use a for loop to print all numbers from 1 to n.
+# 3. Use a while loop to calculate the sum of all numbers from 1 to n.
+# 4. Display the total sum.
 
-# Ex:
-    # Enter a positive integer: 5
-    # Numbers from 1 to 5:
-    # 1
-    # 2
-    # 3
-    # 4
-    # 5
-    # The sum of numbers from 1 to 5 is 15
+# Pseudocode:
+# BEGIN
+#     PROMPT user to enter a positive integer n
+#     DISPLAY "Numbers from 1 to n:"
+#
+#     FOR i FROM 1 TO n DO
+#         DISPLAY i
+#     END FOR
+#
+#     SET sum_total = 0
+#     SET i = 1
+#     WHILE i <= n DO
+#         sum_total = sum_total + i
+#         i = i + 1
+#     END WHILE
+#
+#     DISPLAY "The sum of numbers from 1 to n is", sum_total
+# END
 
 # User input
 n = int(input("Enter a positive integer: "))

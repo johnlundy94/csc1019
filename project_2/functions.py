@@ -1,17 +1,27 @@
-# Define a function names circle_calculations that:
-    # Takes the radius of a circle as input.
-    # Returns both the circumference and area of the circle
-# Asks the user to input the radius 
-# Calls the function and prints the results
-# Us the formula for circumference 2 * pi * radius and area pi * radius^2.
-# Use the math module for pi
+# Algorithm:
+# 1. Define a function named circle_calculations that:
+#       - Takes the radius of a circle as input.
+#       - Returns both the circumference and area of the circle.
+# 2. Ask the user to input the radius.
+# 3. Call the circle_calculations function.
+# 4. Display the circumference and area of the circle using the returned values.
+# 5. Use the math module for the constant pi in calculations.
 
-# Ex:
-    # Enter the radius of the circle: 3
-    # For a circle with radius 3:
-        # When printing the Circumference and the Area, the example is showing 14 decimal places.
-    # Circumference = 18.849...
-    # Area = 28.274...
+# Pseudocode:
+# BEGIN
+#     IMPORT math module
+#     DEFINE function circle_calculations(radius)
+#         SET circumference = 2 * math.pi * radius
+#         SET area = math.pi * radius^2
+#         RETURN circumference, area
+#     END FUNCTION
+#
+#     PROMPT user to enter radius
+#     CALL circle_calculations(radius)
+#     DISPLAY "For a circle with radius", radius
+#     DISPLAY "Circumference =", circumference
+#     DISPLAY "Area =", area
+# END
 
 # Importing math module
 import math
